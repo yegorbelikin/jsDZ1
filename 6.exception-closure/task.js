@@ -32,7 +32,7 @@ class Triangle{
   }
  
   
-  get perimetr(){
+  get perimeter(){
         return this.a + this.b + this.c;
   }
 
@@ -52,7 +52,7 @@ function getTriangle(a, b, c) {
 } catch (err) {
   console.log(err);  
   return {
-      get perimetr() {
+      get perimeter() {
         return "Ошибка! Треугольник не существует";
       },
       get area() {
